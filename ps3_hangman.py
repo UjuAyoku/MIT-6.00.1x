@@ -41,7 +41,7 @@ def chooseWord(wordlist):
 
 # Load the list of words into the variable wordlist
 # so that it can be accessed from anywhere in the program
-# Is the Word Guessed
+# Checking if the Word has been Guessed
 wordlist = loadWords()
 
 def isWordGuessed(secretWord, lettersGuessed):
