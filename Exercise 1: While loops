@@ -1,0 +1,70 @@
+# Question 1 Solution
+# There are many ways to solve this problem! Here is one:
+num = 2
+while num < 11:
+    print(num)
+    num += 2
+print("Goodbye!")
+
+# Here is another:
+num = 2
+while num <= 10:
+    print(num)
+    num += 2
+print("Goodbye!")
+
+# And another:
+num = 0
+while True:
+    num += 2
+    print(num)
+    if num >= 10:
+        print("Goodbye!")
+        break
+
+# And one more:
+num = 1
+while num <= 10:
+    if num % 2 == 0:
+        print(num)
+    num += 1
+print("Goodbye!")
+
+# Question 2 Solution
+# There are always many ways to solve a programming problem. Here is one:
+print("Hello!")
+num = 10
+while num > 0:
+    print(num)
+    num -= 2
+
+# Here is another:
+num = 11
+print("Hello!")
+while num > 1:
+    num -= 1
+    if num %2 == 0:
+        print(num)
+        
+'''Question 3: Write a while loop that sums the values 1 through end, inclusive. 
+end is a variable that we define for you. So, for example, if we define end to be 6, your code should print out the result: 
+21
+which is 1 + 2 + 3 + 4 + 5 + 6.
+
+For problems such as these, do not include input statements or define variables we will provide for you. 
+Our automating testing will provide values so write your code in the following box assuming these variables are already defined.
+'''
+# Solution
+total = 0
+while end > 0:
+    total += end
+    end -= 1
+print(total)
+
+# Here is also one of a few ways to solve this problem:
+total = 0
+current = 1
+while current <= end:
+    total += current
+    current += 1
+print(total)
